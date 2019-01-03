@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.hc.verifresh.MainActivity"
+    android:background="@color/colorBackground"
+    android:id="@+id/main">
+
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top2"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VeriFresh"
+            android:fontFamily="@font/acme_font"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:id="@+id/heading"
+            android:layout_marginTop="14dp"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:id="@+id/cam_btn"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:src="@drawable/iconcam"
+        android:onClick="openCam"
+        android:layout_below="@id/top_bar"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ingredients_btn"
+        android:onClick="ingredients"
+        android:layout_below="@+id/contrib_btn"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="Ingredients"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/instructions_btn"
+        android:layout_below="@+id/cam_btn"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="Instructions"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:onClick="openIntructions"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/contrib_btn"
+        android:onClick="contribute"
+        android:layout_below="@+id/instructions_btn"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="Contribute"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+
+
+
+</RelativeLayout>

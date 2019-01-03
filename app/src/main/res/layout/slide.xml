@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textSize="55sp"
+        android:fontFamily="@font/acme_font"
+        android:textColor="@color/colorBLue"
+        android:text="VeriFresh"
+        android:id="@+id/slide_title"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/slide_title"
+        android:textSize="30sp"
+        android:fontFamily="@font/acme_font"
+        android:textColor="@color/colorBLue"
+        android:text="Verify Freshness"
+        android:id="@+id/slide_subtitle"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/acme_font"
+        android:textColor="@color/colorBLue"
+        android:text="Verify the freshness and health of a fruit or a vegetable just by looking at it!"
+        android:id="@+id/slide_desc"
+        android:textAlignment="center"/>
+
+
+</RelativeLayout>

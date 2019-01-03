@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.hc.verifresh.LoginActivity"
+    android:background="@color/colorGreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="55sp"
+        android:fontFamily="@font/acme_font"
+        android:textColor="@color/colorBLue"
+        android:text="VeriFresh"
+        android:id="@+id/slide_title"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/login_text"
+        android:layout_margin="50dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/acme_font"
+        android:textColor="@color/colorBLue"
+        android:text="You need to sign in to use the Beta version of this app for security reasons. Sign in will be removed in a later version"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_below="@+id/login_text"
+        android:id="@+id/sign_in_button"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </com.google.android.gms.common.SignInButton>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+good apple
+bad apple
+bad brinjal
+bad cabbage
+bad carrot
+bad cheeku
+bad mango
+bad mint
+bad potato
+bad tomato
+bad watermelon
+good banana
+good brinjal
+good carrot
+coriander
+good cabbage
+good cheeku
+good mint
+good watermelon
+green capsicum
+ladyfinger
+good mango
+melon
+onion
+parthenium
+peas
+pomegranate
+good potato
+good tomato
+waxy apple
+bad banana

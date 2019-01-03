@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "609671717371",
+    "firebase_url": "https://verifresh-5ad5e.firebaseio.com",
+    "project_id": "verifresh-5ad5e",
+    "storage_bucket": "verifresh-5ad5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609671717371:android:2ea708ef0f62aaf9",
+        "android_client_info": {
+          "package_name": "com.apps.hc.verifresh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609671717371-7kqfur9te9llfpfsdfuqdem6qs5r3nkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.hc.verifresh",
+            "certificate_hash": "42533494fdf4973468acc3d0296db3e47eb15883"
+          }
+        },
+        {
+          "client_id": "609671717371-d1l30o24qunqbqlsd5l2hi6lfa8r7br4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIjIWbFtn5cuWzXGJ2wFfC0suFOuelm8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609671717371-d1l30o24qunqbqlsd5l2hi6lfa8r7br4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
