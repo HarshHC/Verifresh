@@ -80,7 +80,7 @@ public class ImageClassifier {
     private Interpreter tflite3;
 
   /** Labels corresponding to the output of the vision model. */
-  private List<String> labelList;
+    private List<String> labelList;
     private List<String> labelList2;
     private List<String> labelList3;
 

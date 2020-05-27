@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -446,4 +447,20 @@ public class IngredientsActivity extends AppCompatActivity {
         return "NOT FOUND";
     }
 
+    public void start_search(View view) {
+        EditText manual_search=findViewById(R.id.manual_search);
+        String text=scanTextForAdditives(manual_search.getText().toString());
+
+        TextView output=findViewById(R.id.output);
+        output.setText(text+"\n\nDetected text:\n\n"+manual_search.getText().toString());
+
+        if(bottom.getVisibility()==View.GONE){
+            bottom.setVisibility(View.VISIBLE);
+            //bottom.setAlpha(0.0f);
+            bottom.animate()
+                    .translationY(bottom.getHeight())
+                    .alpha(1.0f)
+                    .setDuration(1000);
+        }
+    }
 }
